@@ -208,8 +208,12 @@
 .home .banner .box .install .info {
 	color:#fff;
 	display: flex;
-	justify-content: space-around;
-	margin: 40px 0
+	margin: 40px 0;
+	align-content: stretch;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: baseline;
 }
 
 .home .banner .box .install .info span {
